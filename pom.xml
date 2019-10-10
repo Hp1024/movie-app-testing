@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.stackroute</groupId>
-	<artifactId>userservice</artifactId>
+	<artifactId>movie-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>userservice</name>
+	<name>movie-service</name>
 	<description>Spring boot application</description>
 
 	<properties>

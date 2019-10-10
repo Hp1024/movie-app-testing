@@ -6,10 +6,7 @@ import com.stackroute.userservice.Service.MovieService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +15,7 @@ import javax.inject.Inject;
 import java.util.List;
 @Api(value="Movie Management System", description="Operations pertaining to movie in Movie Management System")
 @RestController
-@RequestMapping("/userservice")
+@RequestMapping("/movieservice")
 public class MovieController {
     @Inject
     private Environment environment;
